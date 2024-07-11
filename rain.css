@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loginbox{
+    position: relative;
+    margin: 5% auto;
+    width: 600px;
+    height: 400px;
+    background:white;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.leftbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 400px;
+    height: 300px;
+}
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+input[type="text"],
+input[type="password"]
+{
+    outline-style: none;
+    display: block;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    height:32px;
+    border: none;
+    width: 220px;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    font-weight: 400;
+    transition:0.2s ease ;
+    -webkit-transition:0.2s ease ;
+    -moz-transition:0.2s ease ;
+    -ms-transition:0.2s ease ;
+    -o-transition:0.2s ease ;
+}
+input[type="submit"]
+{
+    margin-bottom:28px;
+    width: 120px;
+    height: 32px;
+    background: red;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: white;
+    font-size: 19px;
+border: 1px solid gray;
+cursor: pointer;
+}
+input[type="submit"]:hover
+input[type="submit"]:focus
+{
+    background: blue;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.rightbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url(../../Downloads/lame.jpg);
+    background-position: center;
+
+}
+.pi{
+    position:absolute;
+    left: 280px;
+    top: 180PX;
+    width: 40px;
+    height: 40px;
+    background: grey;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+.rightbox{
+    display: block;
+margin-bottom: 40px;
+font-size: 29px;
+color: blue;
+text-align: center;
+}
+button.social{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+}
+.facebook{
+    background: blue;
+}
+.twitter{
+    background: lightblue;
+}
+.google{
+    background: orangered;
+}

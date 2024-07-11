@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url(../../Downloads/R.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    height: 75px;
+    width: 100%;
+    background-color: pink;
+    padding: 0 120px;
+    line-height:75px;
+}
+nav h1{
+    font-size: 32px;
+    color: black;
+    font-family: sans-serif;
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float:left;
+    position: relative;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    padding:0px 16px;
+display: block;
+font-size: 17px;
+}
+nav ul li:hover{
+    background-color: blue;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li  ul{
+
+    position: absolute;
+    display: none;
+    background-color: pink;
+    border-radius: 0px 0px 15px 5px;
+    -webkit-border-radius: 0px 0px 15px 5px;
+    -moz-border-radius: 0px 0px 15px 5px;
+    -ms-border-radius: 0px 0px 15px 5px;
+    -o-border-radius: 0px 0px 15px 5px;
+}
+nav ul li ul li{
+    line-height: 1;
+    width: 190px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 6px;
+}
+nav ul li ul li a{
+    padding:10px 16px
+}
+nav ul li ul li a:hover{
+    background-color: blue;
+}
+nav ul li a:hover{
+
+}

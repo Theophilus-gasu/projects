@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.pi{
+    background-image: url(../../Downloads/ut.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.mom ul{
+    float: right;
+    
+}
+.mom ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin:12px;
+    margin-right: 50px;
+ 
+}
+.mom ul li a{
+    text-decoration: none;
+    font-size: 27px;
+    color: purple;
+    font-weight: bold;
+}
+.mom ul li:hover::after{
+    width: 80px;
+}
+.pi h1{
+    position: absolute;
+    left: 12%;
+    top: 1%;
+    color: purple;
+}
+
+.theo .ui{ position: absolute; top: 66%; left: 45%; padding: 12px 12px 12px 12px; color: purple; background-color: white; border-radius:20px ;
+    cursor: pointer;
+    outline: none;
+
+    }
+.mom ul li::after{
+    margin: auto;
+    display: block;
+    content: '';
+    background-color: yellow;
+    width: 0;
+    height:2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.theo h1{
+    border: none;
+    font-weight: bold;
+position: absolute;
+    left: 31%;
+    top: 45%;
+    text-transform: capitalize;
+    font-size: 55px;
+    color: purple;
+}
+
+
+.theo p{
+    position: absolute;
+    left: 30%;
+    top: 57%;
+    color: purple;
+    font-weight: bold;
+}
+.ako{
+    padding: 680px;
+}
+.div h1{
+    position: absolute;
+    top:173%;
+    left: 45%;
+}
+.lit{
+    padding: 180px;
+}
+.div p{
+    position: absolute;
+    top:180%;
+    left: 12%;
+}
+.div img{
+    position: absolute;
+    left: 17%;
+    top: 195%;
+    width: 74%;
+}
+
+.tony img{
+    position: absolute;
+    top: 115%;
+    left: 15%;
+}
+.ako h1{
+    position: absolute;
+    left: 45%;
+    top: 107%;
+text-align: center;
+font-size: 29px;
+font-family: sans-serif;
+}
+.tony h1{
+    position: absolute;
+    top: 150%;
+    left: 14%;
+}
+.tony p span{
+    position: absolute;
+    left: 28%;
+}
+.lucy p{
+    position: absolute;
+    top: 157%;
+    left:42% ;   
+}
+.atsu h1{
+position: absolute;
+    top: 150%;
+    left: 70%; 
+}
+.atsu p span{
+    position: absolute;
+    left: 32%; 
+}
+.atsu p{
+    position: absolute;
+    top: 157%;
+    left:69% ;   
+}
+
+.lucy p span{
+    position: absolute;
+    left: 44%;
+}
+.lucy h1{
+    position: absolute;
+    top: 150%;
+    left: 43%; 
+}
+.tony p{
+    position: absolute;
+    top: 157%;
+    left:14% ;
+}
+.atsu img{
+    position: absolute;
+    top: 115%;
+    left: 70%;
+}
+.lucy img{
+    position: absolute;
+    top: 115%;
+    left: 43%;
+}
+.imi{
+    padding: 5px;
+}
+.hm{
+    border: none;
+    position: absolute;
+    background-color: rgb(231, 226, 226);
+    outline: none;
+    top: 348%;
+    padding: 12px 12px 11px 12px;
+    width: 30%;
+    left: 35%;  
+}
+.sammy{
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    position: absolute;
+    background-color: blue;
+    outline: none;
+    top: 365%;
+    padding: 12px 12px 11px 12px;
+    width: 30%;
+    left: 36%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.grand{
+    border: none;
+    position: absolute;
+    background-color: rgb(231, 226, 226);
+    outline: none;
+    top: 356%;
+    padding: 12px 12px 11px 12px;
+    width: 30%;
+    left: 35%;    
+}
+.cj{
+    border: none;
+    position: absolute;
+    background-color: rgb(231, 226, 226);
+    outline: none;
+    top: 339%;
+    padding: 12px 12px 11px 12px;
+    width: 30%;
+    left: 35%;
+}
+.imi h1{
+    position: absolute;
+    top: 318%;
+    left: 44%;
+}
+.imi p{
+    position: absolute;
+    top: 324%; 
+}

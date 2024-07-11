@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    float: right;
+    margin-top: 7px;
+    font-size: 16px;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 17px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 15px; 
+    background: #fff;
+}
+body{
+    background: #fff;
+}

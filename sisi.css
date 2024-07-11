@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.pi{
+    background-image: url(../../Downloads/nad.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    float: right;
+    background-color:gray;
+    height:85px;
+    margin-bottom:130px;
+    margin-top:-26px;
+    
+}
+
+nav ul{
+    margin-left: 830px;
+    margin-top: 58px;
+    margin-right: 200px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+}
+nav ul li a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 7px;
+}
+
+.her{
+    background-color: white;
+    padding-bottom:980px;
+}
+.them{
+    margin-bottom: -57px;
+    margin-left: 300px;
+    
+    color: white;
+}
+.po h1{
+    position: absolute;
+    left: 53%;
+    top: 107%;
+    font-weight: bold;
+    font-size: 34px;
+}
+.po p{
+position: absolute;
+left: 53%;
+    top: 115%;
+}
+.po img{
+    position: absolute;
+    left: 21%;
+    top: 106%;
+}
+
+.pe h1{
+    position: absolute;
+    left: 19%;
+    top: 167%;
+    font-weight: bold;
+    font-size: 34px;
+}
+.pe p{
+    position: absolute;
+left: 19%;
+    top: 175%;
+}
+.pe img{
+    position: absolute;
+    left: 67%;
+    top: 151%;
+}
+.pt img{
+    position: absolute;
+    top: 199%;
+    left: 19%;
+}
+.pt p{
+    position: absolute;
+    top: 215%;
+    left: 51%;
+}
+.pt h1{
+    position: absolute;
+    left:51%;
+    top: 207%;
+    font-weight: bold;
+    font-size: 34px;
+}
+.mum{
+    background-image: url(../../Downloads/jig.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px;
+}
+.van{
+    padding: 190px;
+}
+
+.apedo h1{
+    position: absolute;
+    top: 425%;
+    left: 8%;
+}
+.ossana p{
+    padding: 19px;
+    position: absolute;
+    left: 6.3%;
+    top: 431%;
+}
+.sam{
+    position: absolute;
+    top: 445%;
+left:8%;
+}
+.ui{
+    position: absolute;
+    left: 82%;
+    top: 425%;
+}
+.ji h1{
+    position: absolute;
+    left: 63%;
+    top: 425%;
+}
+
+.sun h1{
+    position: absolute;
+    left: 63.4%;
+    top: 435%;
+}
+.sun p{
+    position: absolute;
+    left: 62%;
+    top: 440%;   
+}
+.class{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 430px;
+    background-image: url(../../Downloads/car.jpg);
+}
+.lina{
+    padding: 200px;
+}
+.lina h1{
+    position: absolute;
+    top:611% ;
+    left: 15%;
+    text-transform: uppercase;
+}
+.lina p{
+    position: absolute;
+    left: 15%;
+    top: 617%;
+    
+}
+.gasu{
+    position: absolute;
+    left: 19%; 
+    top: 694%; 
+    color: white;
+}
+
+.fija{
+    padding: 140px;
+    background-color: black;
+color: white;
+}
+.fija p{
+    position: absolute;
+    left: 19%; 
+    top: 681%; 
+}
+.fija h1{
+    text-transform: uppercase;
+    font-size: 29px;
+    position: absolute;
+    left: 19%;
+    top: 674%;
+}
+.ti{
+    width: 20%;
+    position: absolute;
+    left: 77%;
+    top: 627%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    
+}
+.lo i{
+    position: absolute;
+    left: 75%;
+    top: 621%;
+    font-size: 21px;
+}
+.fi i{
+    position: absolute;
+    left: 75%;
+    top: 626%;
+    font-size: 21px;
+}
+.er i{
+   position: absolute;
+    left: 75%;
+    top: 615%;
+    font-size: 21px;
+}
+.ki{
+     position: absolute;
+    width: 20%;
+    left: 77%;
+    top: 621%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.li{
+    width: 20%;
+    position: absolute;
+    left: 77%;
+    top: 616%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+.lim h1{
+    position: absolute;
+    top: 633%;
+    left: 75%;
+    text-transform: lowercase;
+}
+.lim p{
+    position: absolute;
+    top: 639%;
+    left: 77%;   
+}
+.odo{
+    position: absolute;
+    top: 639%;
+    left: 75%;   
+    margin-top: 3px;
+}
+.odos{
+    position: absolute;
+    top: 642%;
+    left: 75%;   
+    margin-top: 1px;
+}
+.lame p{
+    position: absolute;
+    top: 642%;
+    left: 77%;
+}
+.he{
+    border: none;
+    position: absolute;
+    left: 84%;
+    top: 645%;
+    padding: 7px 8px 7px 8px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+.who{
+    position: absolute;
+    left: 15.1%;
+    top: 629%;
+}
+.usa h2{
+    position: absolute;
+    left: 76%;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.fija h2{
+    font-size: 32px;
+}
+
+.usa ul li{
+    list-style-type: none;
+    padding: 4px;
+}
+.usa ul{
+    position: absolute;
+    top: 678%;
+    left: 76%;
+    margin-top: 30px;
+   
+}
+.usa h2{
+    text-transform: uppercase;
+    font-size: 27px;
+    position: absolute;
+    top: 674%;
+    left: 76%;
+}
